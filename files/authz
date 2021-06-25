@@ -1,0 +1,11 @@
+[groups]
+admin=user001
+repo1_user=user002
+repo1_trainee=user003
+
+[/]
+@admin=rw
+
+[repo1:/]
+@repo1_user=rw
+@repo1_trainee=r
